@@ -31,10 +31,25 @@ a.list:hover {font-family: monospace; font-size: 2em; color: red; text-decoratio
 }
 
 
+.fuckyou2{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 80px;
+    margin: -60px 0 0 -280px;
+    -webkit-transition: -webkit-transform 1s;       
+}
+.fuckyou2:hover{
+    -webkit-transform: scale(-50%) translateZ(0);}
+
 
 /*i dont know what this stuff does*/
 div.main {width: 75%; padding: 0 5% 0 0}
 
 div.sidebar {width: 20%; float: right; text-align: center}
 
-div.banner {width 100%; color: aqua; height: 45px; background-image: url(imgs/cool.png); background-position: center; background-size: cover; font-family: fantasy; font size: 2em; font-weight: bold; text-align: center; padding: 2%; 2%; 2%; 2%}
+div.banner {width 100%; color: aqua; height: 45px; background-image: url(imgs/cool.png); 
+            background-position: center; background-size: cover; font-family: fantasy; 
+            font size: 2em; font-weight: bold; text-align: center; padding: 2%; 2%; 2%; 2%}

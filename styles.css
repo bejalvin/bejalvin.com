@@ -11,7 +11,7 @@ h1 {font-family: fantasy; color: red; font-size: 4em; font-weight: 1000; line-he
 
 h2 {font-family: Comic Sans MS; color: blue; font-size: 2em; font-weight: 600}
 h2 {-webkit-text-stroke: 2px red;}
-p {font-family: Comic Sans MS; color: red; font-size: 1.5em}
+p {font-family: Comic Sans MS; color: red; font-size: 1.7em}
 p {
   color: white;
   text-shadow:
@@ -21,7 +21,12 @@ p {
      1px 1px 0 #000;
 }
 
-a.list {font-family: fantasy; font size: 1em; font-weight: 100; text-decoration: none; line-height: normal}
+a.list {font-family: fantasy; font size: 1em; font-weight: 100; text-decoration: none; line-height: normal;
+text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;}
 a.list:link {Color: red}
 a.list:visited {color: red}
 a.list:hover {text-decoration: underline; font-weight: bolder}

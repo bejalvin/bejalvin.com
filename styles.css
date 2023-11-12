@@ -9,9 +9,9 @@ body {
 
 h1 {font-family: fantasy; color: red; font-size: 4em; font-weight: 1000; line-height: 60px}
 
-h2 {font-family: Comic Sans MS; color: blue; font-size: 2em; font-weight: 600}
+h2 {font-family: Comic Sans MS, monospace; color: blue; font-size: 2em; font-weight: 600}
 h2 {-webkit-text-stroke: 2px red;}
-p {font-family: Comic Sans MS; color: red; font-size: 1.7em}
+p {font-family: Comic Sans MS, monospace; color: red; font-size: 1.7em}
 p {
   color: white;
   text-shadow:
